@@ -1,3 +1,9 @@
+* {
+    /*outline: 2px solid red;*/
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+
 .home {
     background-image: url(./images/recipeBackground.jpg);
 }
@@ -5,6 +11,7 @@
 .home_h1 {
     color: white;
     text-align: center;
+    font-size: 60px;
 }
 
 .home_list {
@@ -16,13 +23,20 @@
 
 .home_list ul {
     list-style: none;
+    }
+
+.home_list li {
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
 }
 
 .home_button {
     background-color: rgb(139, 156, 204);
     color: white;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 15px;
+    /*border-radius: 7px;*/
 }
 
 .recipe_body {
