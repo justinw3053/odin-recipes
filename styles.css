@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
     font-size: 20px;
     box-sizing: border-box;
   }
@@ -14,29 +14,19 @@
     font-size: 60px;
 }
 
-.home_list {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home_list ul {
-    list-style: none;
-    }
-
 .home_list li {
-    padding: 10px;
-    border: 10px;
-    margin: 10px;
+    list-style: none;
+    display: grid;
+    padding: 5px;
+    
 }
 
 .home_button {
-    background-color: rgb(139, 156, 204);
+    background-color: #8aa9ffe1;
     color: white;
     text-align: center;
     border-radius: 15px;
-    /*border-radius: 7px;*/
+    margin: auto;
 }
 
 .recipe_body {
