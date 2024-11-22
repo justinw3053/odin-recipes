@@ -1,8 +1,8 @@
 * {
-    /*outline: 2px solid red;*/
     font-size: 20px;
     box-sizing: border-box;
-  }
+    /*outline: 2px solid black;*/
+}
 
 .home {
     background-image: url(./images/recipeBackground.jpg);
@@ -14,19 +14,17 @@
     font-size: 60px;
 }
 
-.home_list li {
-    list-style: none;
-    display: grid;
-    padding: 5px;
-    
+.home_buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
 }
 
-.home_button {
-    background-color: #8aa9ffe1;
-    color: white;
+.button {
+    background-color: #a2b2df54;
     text-align: center;
     border-radius: 15px;
-    margin: auto;
 }
 
 .recipe_body {
